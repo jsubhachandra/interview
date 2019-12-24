@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 
 import com.taxi.vo.DriverVO;
 
-@org.springframework.stereotype.Service
 public class ServiceImpl implements Service{
 
 	
