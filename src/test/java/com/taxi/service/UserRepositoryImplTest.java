@@ -7,14 +7,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes=ServiceImpl.class)
-public class ServiceImplTest {
+@SpringBootTest(classes=UserRepositoryImpl.class)
+public class UserRepositoryImplTest {
 
-    private Service service = new ServiceImpl();
+    private UserRepositoryImpl service = new UserRepositoryImpl();
 	
 	@Test
 	public void saveDriverTest() {
-		service.saveDriver("abc@gmail.com", "subha","chandra","8792729749");
+		service.getUserById(1);
 	}
 
 
