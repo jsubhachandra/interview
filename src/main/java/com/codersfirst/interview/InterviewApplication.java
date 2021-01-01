@@ -2,6 +2,7 @@ package com.codersfirst.interview;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+ //class comments
 
 @SpringBootApplication
 public class InterviewApplication {
